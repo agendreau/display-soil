@@ -75,7 +75,6 @@ Modify either the lights or music to ``||Loops: repeat||`` 5 times
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    input.onButtonPressed(Button.A, function () {
     for (let i = 0; i < 5; i++) {
         strip.setBrightness(50)
         if (Math.map(gatorSoil.moisture(AnalogPin.P2, GatorSoilType.Moisture, DigitalPin.P1), 0, 1, 1, 10) < 5) {
@@ -85,11 +84,11 @@ input.onButtonPressed(Button.A, function () {
         }
     }
 })
-})
 ```
 
 ## Step 9
 ``||basic: wait||`` 10 seconds in between each time the sensor takes a reading
+
 ```blocks
 input.onButtonPressed(Button.A, function () {
     for (let i = 0; i < 5; i++) {
@@ -101,7 +100,6 @@ input.onButtonPressed(Button.A, function () {
         }
         basic.pause(10000)
     }
-})
 })
 ```
 ## Step 10
