@@ -13,7 +13,7 @@ input.onButtonPressed(Button.A, function () {
 ```
 
 ## Step 3
-Now code your micro:bit to display ``||basic: small heart||`` if the  ``||gatorSoil: soil moisture||`` percentage 
+Now code your micro:bit to display ``||basic: small heart||`` ``||logic: if||`` the  ``||gatorSoil: soil moisture||`` percentage 
 is ``||logic: less than||`` 60. 
 
 ```blocks
@@ -32,7 +32,7 @@ input.onButtonPressed(Button.A, function () {
 ```
 
 ## Step 3
-Now code your micro:bit to display ``||basic: a big heart||`` if  ``||gatorSoil: soil moisture||`` 
+Now code your micro:bit to display ``||basic: a big heart||`` if the ``||gatorSoil: soil moisture||`` 
 is ``||logic: greater than||`` 60 percent.  
 
 
@@ -57,7 +57,7 @@ input.onButtonPressed(Button.A, function () {
 
 ## Step 5
 Modify the program so that when you press ``||input: button B||``, 
-if the ``||gatorSoil: soil moisture||`` is less than 50 percent, 
+``||logic: if||`` the ``||gatorSoil: soil moisture||`` is ``||logic: less than||`` 50 percent, 
 the gator:bit ``||music: plays a song||``. 
 
 ```blocks
